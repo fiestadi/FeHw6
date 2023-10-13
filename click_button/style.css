@@ -1,0 +1,42 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+body{
+   background-image: url(https://cdn.pixabay.com/photo/2016/12/16/15/25/christmas-1911637_1280.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   margin: 0;
+}
+.container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+}
+.toggle-button{
+  display: flex;
+  justify-content: center;
+  border: none;
+  font-size: 2em ;
+ border-radius: 20px;
+ /* background-color: rgb(70, 32, 32); */
+ color: aliceblue;
+ padding: 5px;
+ cursor: pointer;
+ transition: all 0.3s ease;
+ margin-left: 1em;
+ background-color: rgb(115, 84, 6);
+}
+/* .toggle-button:hover {
+   background-color: green;
+} */
+@media (max-width: 768px) {
+   .toggle-button {
+       font-size: 24px;
+       padding: 8px 16px;
+   }
+}
